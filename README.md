@@ -6,7 +6,7 @@
 
 ``` bash
 npm install v-datepicker
-``` bash
+```
 
 ## 在VueJS项目中引用
 
@@ -21,7 +21,7 @@ components: {
   datepicker,
 }
 
-``` javascript
+```
 
 ## 使用
 ``` javascript
@@ -30,4 +30,4 @@ components: {
   value="2019-06-20"
   spliter="-"
   placeholder="请选择日期" />
-``` javascript
+```

@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #333;
+  font-size: 14px;
+}
+
+.icon {
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100% 100%;
+}
+
+.vd-btn {
+  cursor: pointer;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all 0.5s;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+  transform: translateY(-10px);
+}

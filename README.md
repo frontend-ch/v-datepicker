@@ -19,6 +19,11 @@ Vue.component('datepicker', datepicker)
 // 在Vue组件中加载组件
 components: {
   datepicker,
+},
+data: {
+  return {
+    date: null,
+  }
 }
 
 ```

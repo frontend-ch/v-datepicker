@@ -5,15 +5,15 @@
 ## 引入项目
 
 ``` bash
-npm install v-datepicker
+npm install vd-datepicker
 ```
 
 ## 在VueJS项目中引用
 
 ``` javascript
-import datepicker from 'v-datepicker'
+import datepicker from 'vd-datepicker'
 
-// 在Vue实例中家在组建
+// 在Vue实例中加载组建
 Vue.component('datepicker', datepicker)
 
 // 在Vue组件中加载组件

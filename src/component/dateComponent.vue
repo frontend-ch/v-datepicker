@@ -185,7 +185,6 @@ export default {
 <style lang="scss" scoped>
   .vd-container {
     position: relative;
-    max-width: 300px;
   }
   .vd-input-container {
     position: relative;
@@ -216,11 +215,14 @@ export default {
   }
   .vd-date-box {
     width: 100%;
+    min-width: 200px;
+    max-width: 300px;
     position: absolute;
     left: 0;
     padding: 12px;
     border-radius: 4px;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    z-index: 999;
     .vd-buttons {
       display: flex;
       justify-content: space-between;

@@ -1,24 +1,14 @@
 <template>
-  <dateComponent v-model=value />
+  <vd />  
 </template>
 
 <script>
-import dateComponent from './component/dateComponent'
+import vd from './component/dateComponent'
 
 export default {
   name: 'app',
   components: {
-    dateComponent,
-  },
-  data() {
-    return {
-      value: '',
-    }
-  },
-  watch: {
-    value(nv) {
-      console.log(nv)
-    },
+    vd,
   },
 }
 </script>

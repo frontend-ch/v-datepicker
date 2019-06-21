@@ -1,7 +1,7 @@
 {
   "name": "vd-datepicker",
-  "description": "A date picker component of VueJS",
-  "version": "1.0.0",
+  "description": "A date picker component for VueJS",
+  "version": "1.0.1",
   "author": "jeffery.zhang(jefferyzhang1013@gmail.com)",
   "license": "MIT",
   "private": false,
